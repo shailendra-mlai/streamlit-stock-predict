@@ -43,4 +43,4 @@ The LSTM model proved to be beneficial for traders by offering actionable insigh
 
 #### Outline of project
 
-- [Notebook to develop steamlit app with user input](https://github.com/shailendra-mlai/Predictive-Model-for-SAP-500-Stock/blob/main/LSTM-App.ipynb)
+- [Notebook to develop steamlit app with user input](https://github.com/shailendra-mlai/streamlit-stock-predict/blob/main/LSTM-App.ipynb)
