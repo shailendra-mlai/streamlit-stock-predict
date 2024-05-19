@@ -1,6 +1,4 @@
 # streamlit-stock-predict
-Predictive Model for S&amp;P 500 Stock app using streamlit
-
 ### Predictive Model for S&P 500 Stock App using Streamlit
 
 **Author**
