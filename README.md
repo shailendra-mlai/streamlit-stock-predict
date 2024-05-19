@@ -1,5 +1,4 @@
-# streamlit-stock-price-predict
-### Predictive Model for S&P 500 Stock App using Streamlit
+# Predictive Model for S&P 500 Stock App using Streamlit
 
 **Author**
 Shailendra Mruthunjaya
