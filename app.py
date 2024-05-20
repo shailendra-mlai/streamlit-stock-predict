@@ -7,6 +7,7 @@ from keras.models import Sequential
 from keras.layers import LSTM, Dropout, Dense
 from sklearn.preprocessing import MinMaxScaler
 import streamlit as st
+st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Streamlit App
 st.title("Stock Price Prediction App")
