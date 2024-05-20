@@ -33,6 +33,8 @@ visual_plot.set_xlabel('Date', fontsize=16)
 visual_plot.set_ylabel('Closing Price (USD)', fontsize=16)
 st.pyplot(fig)
 
+st.write("Thank you for your patience. The app is currently retrieving the last 5 years of stock data for the entered symbol, building an LSTM model, and predicting the stock price for the next 30 days. This process may take a few moments.")
+
 # Define functions
 def close_prices_only(data):
     return data[['Close']]
