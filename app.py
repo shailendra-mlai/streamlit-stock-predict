@@ -3,11 +3,19 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import yfinance as yf
-from keras.models import Sequential
-from keras.layers import LSTM, Dropout, Dense
+import yfinance as yf
+import tensorflow
+from tensorflow import keras
+from tensorflow.keras import Input
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Dropout, LSTM, Flatten
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.losses import Huber
 from sklearn.preprocessing import MinMaxScaler
 import streamlit as st
 st.set_option('deprecation.showPyplotGlobalUse', False)
+np.random.seed(42)
+tensorflow.random.set_seed(42)
 
 # Streamlit App
 st.title("Stock Price Prediction App")
