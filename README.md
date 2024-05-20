@@ -29,7 +29,7 @@ Long Short-Term Memory (LSTM) is a type of recurrent neural network (RNN) archit
 
 For complete analysis see [Forecasting stock price using LSTM](https://github.com/shailendra-mlai/Predictive-Model-for-SAP-500-Stock/blob/main/LSTM-Stock-price-prediction.ipynb)
 
-
+Stock Prediction Streamlit App: https://app-stock-predict-3zmrnehpxway7dp4dziqdf.streamlit.app/
 
 #### Results
 
@@ -38,8 +38,6 @@ The LSTM model proved to be beneficial for traders by offering actionable insigh
 #### Next steps
 - Explore additional features that may influence stock price movements, such as technical indicators such as moving averages, relative strength index, macroeconomic indicators like interest rates, GDP growth, and sentiment analysis of news and social media.
 - Develop risk management strategies to mitigate potential losses, such as setting stop-loss orders, diversifying investment portfolios, and incorporating risk-adjusted return metrics into the decision-making process. 
-- An app created using https://streamlit.io/ could allow users to input a stock symbol and receive a recommendation.
-
 
 #### Outline of project
 
