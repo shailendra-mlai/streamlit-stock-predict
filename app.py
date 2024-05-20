@@ -17,7 +17,7 @@ TICK = st.text_input("Enter Stock symbol for prediction:", "AAPL")
 # Fetch the data for the last 5 years from Yahoo Finance
 @st.cache
 def load_data(ticker):
-    ticker_data = yf.Ticker(ticker).history(period="60mo")
+    ticker_data = yf.Ticker(ticker).history(period="5y")
     ticker_data['Company'] = ticker
     return ticker_data
 
